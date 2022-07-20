@@ -41,7 +41,7 @@ const Banner = () => {
         <h1 className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
-        <h5>{movie?.first_air_date || movie?.release_date}</h5>
+        <h5>Released: {movie?.first_air_date || movie?.release_date}</h5>
         <h2 className="banner__description">
           {truncate(movie?.overview, 150)}
         </h2>
