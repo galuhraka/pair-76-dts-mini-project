@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { Box, Typography } from "@mui/material";
 import { PlayArrow } from "@mui/icons-material";
 import InfoIcon from "@mui/icons-material/Info";
-import Row from "./Row";
 
 const Detail = () => {
   const [movieDetail, setMovieDetail] = useState([]);
